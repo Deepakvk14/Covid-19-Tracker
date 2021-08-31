@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+}
+.app__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+} 
+.cases{
+  background-color: yellow;
+}
+
+.app__dropdown {
+  background-color: lightblue;
+  height: 35px;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+.app__right {
+  background-color: red;
+}
+.app__stats{
+  display: flex;
+  justify-content: space-between;
+}
+.App {
+  display: flex;
+  justify-content: space-evenly;
+}
+.app__left{
+  flex:0.8;
+  color: white;
+}
+.app__header {
+  background-color: rgb(66, 14, 23);
+  color: white;
+  box-shadow: 0px 0px 10px white;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+@media (max-width:668px) {
+  .App {
+    flex-direction: column;
+  }
+}
